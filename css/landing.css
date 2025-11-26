@@ -1,0 +1,86 @@
+:root {
+    --couleur-principale: #FF3147;
+    --couleur-secondaire: #021738;
+}
+
+/*================HEADER==================*/
+header {
+    background-color: #000000;
+}
+
+.nav-spanned {
+    color: var(--couleur-principale);
+}
+
+.nav-button {
+    background-color: var(--couleur-principale);
+    color: white;
+}
+
+.nav-button:hover {
+    background-color: #ff5f6fef;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #FF3147 !important;
+}
+
+.navbar-toggler {
+    background-color: #FF3147 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================Footer========================== */
+footer {
+    background-color: #021738;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.footer-socials li a {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FF3147;
+}
+
+.footer-socials li a:hover {
+    background-color: #fa5f6e;
+}
+
+.footer-post-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px;
+}
