@@ -5,33 +5,21 @@
 
 /*================HEADER==================*/
 header {
-    background-color: #fefafa;
-    
+    background-color: #000000;
 }
 
 .nav-spanned {
     color: var(--couleur-principale);
 }
-/* modification style du navbar pour qu'il soit identik a celui du maquette  */
-.nav-link {
-    color: rgb(9, 9, 9) !important;
-    font-size: 20px;
-    font-weight: 500;
-}
-.navbar-brand.text-white {
-    color: rgb(9, 9, 9) !important;
-    font-size: 25px;
-    font-weight: bold;
-}
 
 .nav-button {
     background-color: var(--couleur-principale);
-    color: rgb(250, 250, 250);
+    color: white;
 }
 
 .nav-button:hover {
     background-color: #ff5f6fef;
-    color: rgb(9, 9, 9);
+    color: white;
 }
 
 .nav-link:hover {
@@ -41,119 +29,10 @@ header {
 .navbar-toggler {
     background-color: #FF3147 !important;
 }
-.container-lg {
-    max-width: 1140px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: small;
-}
-/* page banner */
-.page-banner {
-    position: relative;
-    height: 300px; 
-    width: 100%;
-    background-image: url('../images/banner.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.banner-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(32, 48, 76, 0.92); 
-    z-index: 0;
-}
 
-.z-index-1 {
-    z-index: 1;
-}
 
-.text-danger {
-    color: #dc3545 !important; 
-}
-.activités {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-}
-.nav-spanned em {
-    font-size: 23px;
-    font-style: normal;
-}
-.btn.btn-custom.fw-bold.shadow-sm {
-    background-color: var(--couleur-principale);
-    color: #fff;
-}
 
-/* section témoignages */
-.testimonial-section {
-    background-image: url('../images/banner.jpg'); 
-    background-size: cover;
-    background-position: center;
-    min-height: 500px; 
-}
-
-.section-overlay {
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background-color: rgba(32, 48, 76, 0.95);
-    z-index: 1;
-}
-
-.z-2 {
-    z-index: 2; 
-}
-
-/*  Btns de navigation (les ronds gris)  */
-.btn-nav-circle {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.2); 
-    border: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
-
-.btn-nav-circle:hover {
-    background-color: #dc3545; 
-    color: white;
-}
-
-/*  Carte de témoignage */
-.testimonial-card {
-    border-radius: 0px; 
-}
-
-.grayscale-img {
-    filter: grayscale(100%);
-}
-/*  le badge rouge */
-.quote-badge {
-    position: absolute;
-    bottom: 20px;   
-    right: -15px;   
-    width: 40px;
-    height: 40px;
-    background-color: #dc3545; 
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    border: 3px solid white; 
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
 
 
 
