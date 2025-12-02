@@ -29,6 +29,31 @@ header {
 .navbar-toggler {
     background-color: #FF3147 !important;
 }
+.titre {
+     background-image:url("../images/hero1.jpg") ;
+     height: 400px;
+     padding-top: 100px;
+}
+.titre h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.titre p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.titre p span {
+    color: red;
+}
+.conteneur{
+    width: 2000px;
+    
+    margin-left: 500px;
+    margin-top: 80px;
+    
+}
 
 .card-section {
     background: white;
@@ -140,6 +165,46 @@ header {
     color: #333;
     border: none;
 
+}
+.rectangle-image{
+    width: 1200px;
+    height: 900px;
+    
+}
+.rectangle-image img{
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+form{
+    width: 20%;
+    height: 450px;
+    margin-top: 200px;
+    background-color: white;
+}
+input{
+    width: 75%;
+    height: 50px;
+    padding-left: 10px;
+     background-color: rgb(236, 234, 234);
+     border: none;
+}
+textarea{
+    width: 87%;
+    height: 200px;
+     background-color: rgb(236, 234, 234);
+     border: none;
+}
+.temoin {
+    background-image:url("../images/hero1.jpg") ;
+    padding-top: 120px;
+    height: 600px;
+}
+.profil-image img{
+    margin-right: -20px;
+    height: 200px;
+    width: 200px;
 }
 
 
