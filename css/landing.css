@@ -402,3 +402,6 @@ footer {
     object-fit: cover;
     border-radius: 4px;
 }
+.footer-spanned {
+    color: var(--couleur-principale);
+}
