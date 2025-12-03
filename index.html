@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-lg">
                 <a class="navbar-brand text-white" href="index.html">
@@ -86,47 +86,571 @@
 
 
         <section id="hero">
+            <div class="container py-5 hero-wrapper">
+                <div class="col-12 col-lg-5">
+                    <p class="hero-header">Votre solution d'association</p>
+                    <h1 class="text-white">Disposer de votre site vitrine en 2 semaines</h1>
 
+                    <div class="d-flex align-items-center">
+                        <button class="btn bg-white me-3">Commencer</button>
+                        <a href="#" class="d-flex g-2 text-white text-decoration-none h5 fw-normal mt-3"><i
+                                class="bi bi-play-circle-fill h3 me-3"></i> Comment nous travaillons</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row g-4 justify-content-center text-center">
+
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card h-100 border-0 shadow py-5">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <img src="images/feature-1.png" class="mb-3" width="48" alt="">
+                                <h5 class="card-title feature-card-title">Lorem Ipsum Dolor</h5>
+                                <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card h-100 border-0 shadow py-5">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <img src="images/feature-2.png" class="mb-3" width="48" alt="">
+                                <h5 class="card-title feature-card-title">Lorem Ipsum Dolor</h5>
+                                <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card h-100 border-0 shadow py-5">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <img src="images/feature-3.png" class="mb-3" width="48" alt="">
+                                <h5 class="card-title feature-card-title">Lorem Ipsum Dolor</h5>
+                                <p class="card-text text-start">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="text-center mt-4 small text-light">
+                    Les défis ne sont que des opportunités déguisées.
+                    <span class="text-danger fw-semibold">Accepte le challenge!</span>
+                </p>
+            </div>
         </section>
 
 
         <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h6 class="about-small-heading">Qui Sommes Nous</h6>
+                        <h1 class="about-heading">
+                            Excellents services pour les associations et les aidants
+                        </h1>
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur. Ornare blandit morbi viverra id. Purus interdum nunc
+                            etiam diam massa feugiat. Faucibus nibh quisque a volutpat id. Duis cras ornare praesent
+                            tincidunt.
+                        </P>
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center gap-3">
+                                <img src="images/about-1.png" width="32px" alt="">
+                                <h5>
+                                    Design de sites Web
+                                    et développement
+                                </h5>
+                            </div>
+                            <div class="col-6 d-flex align-items-center gap-3">
+                                <img src="images/about-2.png" width="32px" alt="">
+                                <h5>
+                                    Applications Android et iOS
+                                    développement
+                                </h5>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ornare blandit morbi viverra id. Purus interdum nunc
+                            etiam diam massa feugiat. Faucibus nibh quisque a volutpat id. Duis cras ornare praesent
+                            tincidunt.
+                        </p>
+                        <button class="btn about-btn btn-lg rounded-0">Lorem Ipsum Dolor</button>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row g-3"> <!-- g-3 adds spacing like your design -->
 
+                            <!-- Top big image -->
+                            <div class="col-12">
+                                <div class="ratio ratio-21x9"> <!-- Makes it wide and consistent -->
+                                    <img src="images/about-3.jpg" class="w-100 h-100 object-fit-cover rounded" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Bottom two images -->
+                            <div class="col-6">
+                                <div class="ratio ratio-4x3">
+                                    <img src="images/about-4.jpg" class="w-100 h-100 object-fit-cover rounded" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="ratio ratio-4x3">
+                                    <img src="images/about-5.png" class="w-100 h-100 object-fit-cover rounded" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
 
         <section id="services">
+            <div class="container">
+                <h6 class="text-center services-small-heading">Nos Services</h4>
+                    <h1 class="text-center services-heading w-75 mx-auto">
+                        Nous sommes la meilleure offre de services
+                        pour les associations et les aidants
+                    </h1>
+                    <div class="row my-5 py-5">
+                        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
+                            <div class="services-card mb-4">
+                                <div class="services-card-img">
+                                    <img src="images/services-1.png" alt="">
+                                </div>
+                                <div class="services-card-text shadow">
+                                    <h6 class="text-center services-card-small-heading">Design</h6>
+                                    <h4 class="text-center services-heading">Conception App</h4>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Luctus nibh dolor
+                                        cras</p>
+                                    <button class="services-btn">
+                                        <i class="bi bi-arrow-right text-white"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
+                            <div class="services-card mb-4">
+                                <div class="services-card-img">
+                                    <img src="images/services-2.png" alt="">
+                                </div>
+                                <div class="services-card-text shadow">
+                                    <h6 class="text-center services-card-small-heading">Marketing</h6>
+                                    <h4 class="text-center services-heading">Recherche en Marketing</h4>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Luctus nibh dolor
+                                        cras</p>
+                                    <button class="services-btn">
+                                        <i class="bi bi-arrow-right text-white"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
+                            <div class="services-card mb-4">
+                                <div class="services-card-img">
+                                    <img src="images/services-3.png" alt="">
+                                </div>
+                                <div class="services-card-text shadow">
+                                    <h6 class="text-center services-card-small-heading">Developpemment</h6>
+                                    <h4 class="text-center services-heading">Developpemment Web</h4>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Luctus nibh dolor
+                                        cras</p>
+                                    <button class="services-btn">
+                                        <i class="bi bi-arrow-right text-white"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center"><button class="services-btn2 btn btn-lg rounded-0">Lorem Ipsum
+                            Dolor</button></div>
 
+            </div>
         </section>
 
 
         <section id="members">
+            <div class="container">
+                <h6 class="members-small-heading text-center">
+                    Les Membres De Notre Equipe
+                </h6>
+                <h1 class="members-heading text-center w-75 mx-auto">
+                    L'experience Constal À La Rencontre Des Employes De L'équipe
+                </h1>
+                <div class="row my-5 py-5">
+                    <div class="col-12 col-lg-6 mb-5">
+                        <div class="row gap-0">
+                            <div class="col-5">
+                                <img src="images/members-1.jpg" alt="" class="object-fit-cover" height="200px"
+                                    width="200px">
+                            </div>
+                            <div class="col-7">
+                                <h4>
+                                    Harry Abraham
+                                </h4>
+                                <p class="lead">Founder</p>
+                                <p>
+                                    Maecenas sagttis quam interdum
+                                    malesuada and metus conecteiur
+                                    awesome cursus
+                                </p>
+                                <ul class="list-unstyled d-flex gap-3">
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-rss"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-instagram"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-5">
+                        <div class="row gap-0">
+                            <div class="col-5 ">
+                                <img src="images/members-2.jpg" alt="" class="object-fit-cover" height="200px"
+                                    width="200px">
+                            </div>
+                            <div class="col-7">
+                                <h4>
+                                    Thomas Novak
+                                </h4>
+                                <p class="lead">Founder</p>
+                                <p>
+                                    Maecenas sagttis quam interdum
+                                    malesuada and metus conecteiur
+                                    awesome cursus
+                                </p>
+                                <ul class="list-unstyled d-flex gap-3">
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-rss"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-instagram"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-5">
+                        <div class="row">
+                            <div class="col-5 ">
+                                <img src="images/members-3.jpg" alt="" class="object-fit-cover" height="200px"
+                                    width="200px">
+                            </div>
+                            <div class="col-7">
+                                <h4>
+                                    Edward Willey
+                                </h4>
+                                <p class="lead">Founder</p>
+                                <p>
+                                    Maecenas sagttis quam interdum
+                                    malesuada and metus conecteiur
+                                    awesome cursus
+                                </p>
+                                <ul class="list-unstyled d-flex gap-3">
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-rss"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-instagram"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-5">
+                        <div class="row">
+                            <div class="col-5 ">
+                                <img src="images/members-4.jpg" alt="" class="object-fit-cover" height="200px"
+                                    width="200px">
+                            </div>
+                            <div class="col-7">
+                                <h4>
+                                    Mr Berry Castle
+                                </h4>
+                                <p class="lead">Founder</p>
+                                <p>
+                                    Maecenas sagttis quam interdum
+                                    malesuada and metus conecteiur
+                                    awesome cursus
+                                </p>
+                                <ul class="list-unstyled d-flex gap-3">
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-rss"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a></li>
+                                    <li><a href="#" class="members-link">
+                                            <i class="bi bi-instagram"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </section>
 
 
         <section id="sign-up">
+            <div class="container">
+                <div class="signup-form shadow">
 
+                    <h4 class="fw-bold mb-4">Adhésion En Ligne Rapide</h4>
+
+                    <form>
+                        <div class="row g-3">
+
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Votre Nom">
+                            </div>
+
+                            <div class="col-6">
+                                <input type="email" class="form-control" placeholder="Adresse e-mail">
+                            </div>
+
+                            <div class="col-6">
+                                <select class="form-select">
+                                    <option>Choisissez une association</option>
+                                </select>
+                            </div>
+
+                            <div class="col-6">
+                                <select class="form-select">
+                                    <option>Choisissez ????</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <textarea rows="4" class="form-control"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn text-white">
+                                    <i class="bi bi-person-fill"></i> ADHÉRER
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
         </section>
+
 
 
         <section id="testemonials">
+            <div class="container py-5">
+                <div class="row align-items-center">
 
+
+                    <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+                        <h6 class="testemonials-small-heading">Temoignages</h6>
+                        <h1 class="text-white">Ce Que Disent Les Clients À Propos De Nos Services</h1>
+
+                        <div class="d-flex gap-3 mt-4">
+                            <button class="testemonials-btn" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <i class="bi bi-arrow-left text-white"></i>
+                            </button>
+
+                            <button class="testemonials-btn" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <i class="bi bi-arrow-right text-white"></i>
+                            </button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-lg-5 offset-lg-1">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="false">
+
+                            <div class="carousel-inner">
+
+
+                                <div class="carousel-item active">
+                                    <div class="testimonial-card">
+
+                                        <div class="quote-icon">
+                                            <i class="bi bi-quote"></i>
+                                        </div>
+
+                                        <p class="testimonial-text">
+                                            Praesent idea and massa suscp venena velit in utrce sapien.
+                                            Phasellus moesteix dicttums effic useere erat pharetra metus aques nulla
+                                            number.
+                                            Aenean hendrerit lobortis
+                                        </p>
+
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-user">
+                                                <img src="/images/testemonial-1.jpg" alt="">
+                                                <div>
+                                                    <h6>Maimouna Wade</h6>
+                                                    <span>Cliente</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="testimonial-stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item">
+                                    <div class="testimonial-card">
+
+                                        <div class="quote-icon">
+                                            <i class="bi bi-quote"></i>
+                                        </div>
+
+
+                                        <p class="testimonial-text">
+                                            Praesent idea and massa suscp venena velit in utrce sapien.
+                                            Phasellus moesteix dicttums effic useere erat pharetra metus aques nulla
+                                            number.
+                                            Aenean hendrerit lobortis
+                                        </p>
+
+                                        <div class="testimonial-footer">
+                                            <div class="testimonial-user">
+                                                <img src="/images/testemonial-2.jpg" alt="">
+                                                <div>
+                                                    <h6>Babacar Soumaré</h6>
+                                                    <span>Client</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="testimonial-stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
         </section>
 
+        <section id="partners">
+            <div class="container py-5">
+                <div class="row text-center g-4 justify-content-center align-items-center">
+                    <div class="col-12 col-lg-2"><img src="/images/partner-1.png" alt=""></div>
+                    <div class="col-12 col-lg-2"><img src="/images/partner-2.png" alt=""></div>
+                    <div class="col-12 col-lg-2"><img src="/images/partner-3.png" alt=""></div>
+                    <div class="col-12 col-lg-2"><img src="/images/partner-4.png" alt=""></div>
+                    <div class="col-12 col-lg-2"><img src="/images/partner-5.png" alt=""></div>
+                </div>
+            </div>
+        </section>
 
         <section id="blog">
+            <div class="container">
+                <h6 class="blog-small-heading text-center">Nos reussites</h6>
+                <h1 class="blog-heading w-75 mx-auto text-center">Dernières nouvelles et articles dans notre blog</h1>
+                <div class="row py-5">
+                    <div class="col-12 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="/images/blog-1.jpg" class="card-img-top" alt="Blog Image 1">
+                            <div class="card-body">
+                                <p class="card-text text-muted"><small class="blog-date"><i class="bi bi-calendar"></i> 21 Avril 2022</small> - <span><i class="bi bi-person-fill"></i> Admin</span></p>
+                                <h5 class="card-title">Conseils Pour Réussir En Association</h5>
+                                <p class="card-text">Uere are full service engage is compan provide solution for
+                                    employee needs...</p>
+                                <a href="#" class="btn btn-link">En Savoir Plus</a>
+                            </div>
+                        </div>
+                    </div>
 
+
+                    <div class="col-12 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="/images/blog-2.jpg" class="card-img-top" alt="Blog Image 2">
+                            <div class="card-body">
+                                <p class="card-text text-muted"><small class="blog-date"><i class="bi bi-calendar"></i> 23 Avril 2022</small> - <span><i class="bi bi-person-fill"></i> Admin</span></p>
+                                <h5 class="card-title">Conseils Pour Réussir En Association</h5>
+                                <p class="card-text">Rere are full service engage is compan provide solution for
+                                    employee needs...</p>
+                                <a href="#" class="btn btn-link">En Savoir Plus</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="/images/blog-3.jpg" class="card-img-top" alt="Blog Image 3">
+                            <div class="card-body">
+                                <p class="card-text text-muted"><small class="blog-date"><i class="bi bi-calendar"></i> 25 Avril 2022</small> - <span><i class="bi bi-person-fill"></i> Admin</span></p>
+                                <h5 class="card-title">Conseils Pour Réussir En Association</h5>
+                                <p class="card-text">Here are full service engage is compan provide solution for
+                                    employee needs...</p>
+                                <a href="#" class="btn btn-link">En Savoir Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
 
     </main>
 
 
-    <footer class="py-5">
-        <div class="container-lg">
+    <footer>
+        <div class="container-lg py-5">
             <div class="row">
-                <div class="col col-lg-3">
+                <div class="col-12 col-lg-3">
                     <h1 class="text-white h2"><span class="nav-spanned">Easy</span> Membership</h1>
                     <p class="lead fw-bold text-white">A propos de nous</p>
                     <p class="text-white">
@@ -140,7 +664,7 @@
                         <li><a href="#"><i class="bi bi-linkedin text-white"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <h5 class="mb-3 text-white">Liens Vers Les Pages</h5>
 
                     <ul class="list-unstyled">
@@ -184,7 +708,7 @@
 
                                     <li><a class="dropdown-item" href="#">Faire un don</a></li>
                                     <li><a class="dropdown-item" href="#">Adhérer</a></li>
-                                    <li><a class="dropdown-item" href="#">Conditions d’adhésion</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditions d'adhésion</a></li>
                                     <li><a class="dropdown-item" href="#">Adhérer en ligne et payer les frais</a></li>
                                     <li><a class="dropdown-item" href="#">Créer un compte adhérent</a></li>
                                     <li><a class="dropdown-item" href="#">Historique des cotisations annuelles</a></li>
@@ -210,7 +734,7 @@
 
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <h5 class="text-white fw-bold mb-4">Post Récent</h5>
 
                     <!-- Post 1 -->
@@ -239,7 +763,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-lg-3">
                     <h5 class="text-white fw-bold mb-4">Photos Récentes</h5>
 
                     <div class="row g-2">
@@ -265,6 +789,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid bg-white text-center py-3">
+            @2023 <span class="footer-spanned">Easy Membership</span>. Tous droits réservés.
         </div>
     </footer>
 

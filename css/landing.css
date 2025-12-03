@@ -6,6 +6,7 @@
 /*================HEADER==================*/
 header {
     background-color: #000000;
+    z-index: 111;
 }
 
 .nav-spanned {
@@ -29,12 +30,329 @@ header {
 .navbar-toggler {
     background-color: #FF3147 !important;
 }
+/*======================Hero==========================*/
+#hero {
+    background-image: url(/images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+#hero::after {
+    content: "";
+    background-color: #00000096;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    z-index: -1;
+}
+.hero-header {
+    color: #FF3147;
+    font-weight: bold;
+}
+.hero-wrapper {
+    z-index: 1;
+}
+.bi-play-circle-fill {
+    color: #FF3147 !important;
+}
+
+/* ======================Features=========================*/
+#features {
+    background-color: #021738;
+    padding: 150px 0;
+}
+.feature-card-title {
+    color: #FF3147 !important;
+}
+/* ======================About=======================*/
+#about {
+    padding: 150px 0;
+}
+.about-heading {
+    color: #021738;
+}
+.about-small-heading {
+    color: #FF3147;
+}
+.about-btn {
+    background-color: #FF3147 !important;
+    color: white !important;
+}
+.about-btn:hover {
+    background-color: #fa5f6e !important;
+}
+
+/*===================Services=================*/
+#services {
+    padding: 160px 0;
+    background-color: #F2F6F9;
+}
+.services-small-heading {
+    color: #FF3147;
+}
+.services-heading {
+    color: #021738;
+}
+.services-card {
+    position: relative;
+}
+.services-card-text {
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    left: 22px;
+    bottom: -120px;
+    padding: 1.5rem;
+}
+.services-card-small-heading {
+    color: #FF3147;
+}
+.services-card-heading {
+    color: #021738;
+}
+.services-btn {
+    border-radius: 50%;
+    border: none;
+    background-color: #021738;
+    padding: 0.5rem 0.7rem;
+    position: absolute;
+    left: 43%;
+}
+.services-btn2 {
+    margin-top: 5rem;
+    border: none;
+    background-color: #FF3147;
+    color: white;
+}
+.services-btn2:hover {
+    background-color: #fa5f6e;
+    color: white;
+}
+@media (max-width: 1200px) {
+    .services-card {
+        margin-bottom: 150px !important;
+    }
+}
+
+/* ======================Members==========================*/
+#members {
+    padding: 150px 0;
+}
+.members-small-heading {
+    color: #FF3147;
+}
+.members-heading {
+    color: #021738;
+}
+.members-link {
+    color: #021738;
+}
+/* ======================Sign-up==========================*/
+#sign-up {
+    padding: 150px 0;
+    background-image: url(/images/form-img.jpg);
+    background-size: 60%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.signup-form {
+    max-width: 420px;
+    margin-left: 50%;
+    background: white;
+    padding: 40px;
+    border-radius: 6px;
+}
 
 
 
+.signup-form input,
+.signup-form select,
+.signup-form textarea {
+    background: #f3f6f9;
+    border: none;
+    padding: 12px;
+    width: 100%;
+}
 
 
+.signup-form button {
+    background: #ff2d3d;
+    border: none;
+    padding: 12px 24px;
+}
 
+@media (max-width: 1200px) {
+    #sign-up {
+        background-image: none;
+        background-color: #F2F6F9;
+    }
+    .signup-form {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+/*=====================Testimonials====================*/
+#testemonials {
+    padding: 150px 0;
+    background-image: url(/images/testemonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testemonials-small-heading {
+    color: #FF3147;
+}
+.testemonials-btn {
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+    background-color: #FFFFFF4D;
+    transition: 0.4s;
+}
+.testemonials-btn:hover {
+    background-color: #FF3147;
+    color: white;
+}
+.testimonial-wrapper {
+    position: relative;
+    height: 260px;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 18px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.quote-icon {
+    width: 45px;
+    height: 45px;
+    background: #FF3147;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.testimonial-user img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-user h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.testimonial-user span {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+
+.testimonial-stars {
+    color: #FF3147;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+/* ======================Blog==========================*/
+#blog {
+    padding: 150px 0;
+    background-color: #F2F6F9;
+}
+
+.blog-small-heading {
+    color: #FF3147;
+}
+
+.blog-heading {
+    color: #021738;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+}
+
+.card-img-top {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #021738;
+    margin-top: 10px;
+}
+
+.btn-link {
+    color: #FF3147;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.blog-date {
+    position: absolute;
+    background-color: #FF3147;
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border-radius: 20px;
+    top: 165px;
+}
+
+@media (max-width: 767px) {
+    .card-img-top {
+        height: 180px;
+    }
+}
 
 
 
@@ -69,7 +387,7 @@ footer {
 }
 
 .footer-socials li a {
-    padding: 10px;
+    padding: 0.5rem 0.7rem;
     border-radius: 50%;
     background-color: #FF3147;
 }
@@ -83,4 +401,7 @@ footer {
     height: 70px;
     object-fit: cover;
     border-radius: 4px;
+}
+.footer-spanned {
+    color: var(--couleur-principale);
 }
