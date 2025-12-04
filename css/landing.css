@@ -152,7 +152,7 @@ header {
 /* ======================Sign-up==========================*/
 #sign-up {
     padding: 150px 0;
-    background-image: url(/images/form-img.jpg);
+    background-image: url(../images/form-img.jpg);
     background-size: 60%;
     background-position: left center;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@ header {
 /*=====================Testimonials====================*/
 #testemonials {
     padding: 150px 0;
-    background-image: url(/images/testemonials-bg.jpg);
+    background-image: url(../images/testemonials-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
