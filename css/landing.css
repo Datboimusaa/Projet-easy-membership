@@ -135,6 +135,11 @@ header {
         margin-bottom: 150px !important;
     }
 }
+@media (max-width: 767px) {
+    .services-card-img {
+        height: 200px !important;
+    }
+}
 
 /* ======================Members==========================*/
 #members {
