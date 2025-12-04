@@ -31,7 +31,7 @@ header {
 }
 /*======================Hero==========================*/
 #hero {
-    background-image: url(/images/hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px 0;
